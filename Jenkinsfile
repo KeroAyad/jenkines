@@ -4,12 +4,7 @@ pipeline {
 
  
 
-        stage('Prepare') {
-            steps {
-              git 'https://github.com/KeroAyad/jenkines/'
-              sh "echo cloning sucessfully"
-            }
-            }
+        
             
         
          stage('build') {
