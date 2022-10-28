@@ -2,18 +2,6 @@ pipeline {
      agent { label 'docker' }
     stages {
 
- 
-
-        
-            
-        
-         stage('build') {
-            steps {
-                // Get some code from a GitHub repository
-                sh "docker build -t kerolosayad/nodeapp2 ."
-            }
-            
-            
           
         }
         // deploy in ubuntu agent 
