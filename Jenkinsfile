@@ -24,7 +24,7 @@ pipeline {
             }
              post{
                 success{
-                echo 'app deploy successfully'
+                echo 'app deploy successfully!'
                 }
             }
           
