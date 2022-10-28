@@ -6,7 +6,6 @@ pipeline {
 
         stage('Prepare') {
             steps {
-            git branch: 'master',
               git 'https://github.com/KeroAyad/jenkines/'
               sh "echo cloning sucessfully"
             }
